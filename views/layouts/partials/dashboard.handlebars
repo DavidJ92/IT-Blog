@@ -1,0 +1,13 @@
+{{!< main}}
+
+<h2>Dashboard</h2>
+{{#if posts}}
+  <ul>
+    {{#each posts}}
+      <li>{{this.title}} - <a href="/post/{{this.id}}">View</a></li>
+    {{/each}}
+  </ul>
+{{else}}
+  <p>No posts yet.</p>
+{{/if}}
+<a href="/new-post">Create New Post</a>
