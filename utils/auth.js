@@ -1,44 +1,13 @@
-const bcrypt = require('bcrypt');
-const { User } = require('../models');
-
-const auth = {
-  // Function to authenticate user
-  async authenticateUser(username, password) {
-    try {
-      const user = await User.findOne({ where: { username } });
-
-      if (!user) {
-        return { success: false, message: 'Invalid username or password' };
-      }
-
-      const validPassword = await bcrypt.compare(password, user.password);
-
-      if (!validPassword) {
-        return { success: false, message: 'Invalid username or password' };
-      }
-
-      return { success: true, user };
-    } catch (error) {
-      console.error('Error authenticating user:', error);
-      return { success: false, message: 'An error occurred while authenticating user' };
-    }
-  },
-
-  // Function to check if user is logged in
-  isLoggedIn(req, res, next) {
-    if (req.session.loggedIn) {
-      return next();
-    }
-    res.redirect('/login');
-  },
-
-  // Function to check if user is not logged in
-  isNotLoggedIn(req, res, next) {
-    if (!req.session.loggedIn) {
-      return next();
-    }
-    res.redirect('/');
-  },
+// User authentication
+const withAuth = (req, res, next) => {
+  console.log(req.session.logged_in);
+  // If the user is not logged in, redirect the request to the login route
+  if (!req.session.logged_in) {
+    res.redirect("/login");
+  } else {
+    next();
+  }
 };
 
-module.exports = auth;
+// Export
+module.exports = withAuth;

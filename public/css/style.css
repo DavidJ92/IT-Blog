@@ -1,0 +1,109 @@
+/* General page styles */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #050505;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #151515;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.homepage-main {
+  margin-top: 20px;
+}
+
+.user-name {
+  background-color: #0b81ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.blogPost-main {
+  margin-top: 20px;
+}
+
+/* Nav styles */
+
+.navBar {
+  background-color: #151515;
+  padding: 10px;
+
+}
+
+#logout {
+  background-color: #ff5c5c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Input/textarea styles */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #0b81ff;
+  border-radius: 5px;
+  background-color: #050505;
+  color: #fff;
+}
+
+/* Button styles */
+
+.btn {
+  background-color: #0b81ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0e66c9;
+}
+
+/* Card styles */
+
+.card {
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #ff7f00;
+  padding: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}

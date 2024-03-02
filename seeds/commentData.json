@@ -1,0 +1,26 @@
+[
+  {
+    "comment_body": "This is a thought-provoking article!",
+    "date_created": "March 10, 2024",
+    "user_id": 1,
+    "blogPost_id": 1
+  },
+  {
+    "comment_body": "I completely agree with the author's viewpoint.",
+    "date_created": "March 12, 2024",
+    "user_id": 2,
+    "blogPost_id": 1
+  },
+  {
+    "comment_body": "Interesting insights! Thanks for sharing.",
+    "date_created": "March 15, 2024",
+    "user_id": 3,
+    "blogPost_id": 2
+  },
+  {
+    "comment_body": "I have some reservations about the conclusions drawn in this article.",
+    "date_created": "March 18, 2024",
+    "user_id": 4,
+    "blogPost_id": 2
+  }
+]

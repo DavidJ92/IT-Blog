@@ -1,0 +1,26 @@
+[
+  {
+    "title": "The Impact of Artificial Intelligence on Employment",
+    "description": "As artificial intelligence (AI) continues to advance, concerns about its impact on employment are growing. While AI has the potential to automate many tasks and increase productivity, it also raises questions about job displacement and the future of work...",
+    "date_created": "March 5, 2024",
+    "user_id": 1
+  },
+  {
+    "title": "The Rise of Decentralized Finance (DeFi)",
+    "description": "Decentralized finance (DeFi) is a rapidly growing sector that aims to revolutionize traditional finance by leveraging blockchain technology. DeFi platforms offer various financial services, including lending, borrowing, trading, and asset management, without the need for traditional intermediaries...",
+    "date_created": "July 10, 2023",
+    "user_id": 2
+  },
+  {
+    "title": "The Importance of Cybersecurity in a Digital World",
+    "description": "In today's digital age, cybersecurity plays a crucial role in safeguarding sensitive information and protecting individuals, businesses, and governments from cyber threats. With the increasing reliance on technology and interconnected systems, the need for robust cybersecurity measures has never been greater...",
+    "date_created": "September 20, 2024",
+    "user_id": 3
+  },
+  {
+    "title": "The Future of Space Exploration",
+    "description": "With advancements in technology and increasing interest from private companies and governments, the future of space exploration looks promising. From missions to Mars to the development of space tourism, humanity is on the brink of exciting new discoveries and opportunities beyond Earth...",
+    "date_created": "November 28, 2024",
+    "user_id": 4
+  }
+]
